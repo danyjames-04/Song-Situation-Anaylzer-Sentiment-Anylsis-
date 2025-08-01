@@ -51,15 +51,30 @@ def get_wak_meme(text):
             best_match = meme
 
     return best_match or "Uncategorized"
-# Sample lyrics input
-text = """Oh my God, Lil, Lil Mariko?
-Is that you?
-Bro, yo, I'm your biggest fan
-Like I would do anything to just go out on a date with you
-Or like, just buy things for you
-Or just, you know, smell your underwear
-Anything like that (Goin' full tac)"""
 
-# Output
-print("Emotions:", analyze_lyric_emotion(text))
-print("Most Relevant Meme Vibe:", get_wak_meme(text))
+#pip install lyricsgenius
+
+import lyricsgenius
+import re
+
+song_name = input("Enter the song name: ")
+genius = lyricsgenius.Genius("paste genius api key here", skip_non_songs=True, excluded_terms=["(Remix)", "(Live)"], verbose=False)
+
+try:
+    song = genius.search_song(song_name)
+    if song and song.lyrics:
+        # Clean and process lyrics
+        cleaned_lyrics = re.sub(r"\[.*?\]", "", song.lyrics)  # Remove [Chorus], [Verse], etc.
+        lines = [line.strip() for line in cleaned_lyrics.split('\n') if line.strip()]  # Remove blank lines
+        first_8_lines = "\n".join(lines[:10])  # Get first 8 real lyric lines
+
+        text = first_8_lines
+        print(f"\nFirst 8 lines of '{song.title}' by {song.artist}:\n")
+        print(text)
+        
+        print("Emotions:", analyze_lyric_emotion(text))
+        print("Most Relevant Meme Vibe:", get_wak_meme(text))
+    else:
+        print("Lyrics not found.")
+except Exception as e:
+    print("Error fetching lyrics:", e)
