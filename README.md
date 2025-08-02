@@ -67,6 +67,6 @@ Just broken hearts and lyric analysis.
 ### Installation
 ```bash
 pip install flask torch transformers lyricsgenius
-
-```Run
+```
+### Run
 python Analyser.py
