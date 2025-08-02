@@ -75,24 +75,16 @@ python Analyser.py
 
 ### 📷 Screenshots
 
-**🔹 Landing Page**  
-![Screenshot1](Add screenshot 1 here)  
-*Enter the song name you want emotionally dissected.*
+**
 
-**🔹 Emotion Meme Result**  
-![Screenshot2](Add screenshot 2 here)  
-*Shows the meme that best matches the emotional vibes of the lyrics.*
 
-**🔹 Error Handling**  
-![Screenshot3](Add screenshot 3 here)  
-*Displays appropriate message when lyrics aren't found or API fails.*
 
 ---
 
 ### 📊 Diagrams
 
 **🔹 Workflow**  
-![Workflow](Add your workflow/architecture diagram here)  
+![Workflow]
 *Song Name → Lyrics Fetch → Emotion Analysis → Meme Mapping → Result*
 
 ---
@@ -106,11 +98,6 @@ python Analyser.py
 
 ---
 
-### 🎉 Additional Demos
-
-[Optional: Add fun screenshots of unexpected/funny meme results]
-
----
 
 ## 👥 Team Contributions
 
