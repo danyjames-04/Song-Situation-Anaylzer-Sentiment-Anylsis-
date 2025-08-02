@@ -1,98 +1,74 @@
-🎯 Useless Sentiment Analyzer
-Basic Details
-Team Name: Least Code
-Team Members:
-Team Lead: Dany James – TKM College of Engineering
-Member 2: Abhinav A – TKM College of Engineering
+# 🎯 Useless Sentiment Analyzer
 
-🧠 Project Description
-Ever felt like your music taste deserves psychological evaluation? Our app fetches lyrics of any song you enter and tells you which meme perfectly represents the emotional chaos within it.
+## 🧾 Basic Details
 
-🚨 The Problem (that doesn't exist)
-People don’t know how to meme-ify their feelings after listening to an emotional bop. A tragic oversight in modern society.
+**Team Name:** Least Code  
+**Team Members:**  
+- **Team Lead:** Dany James – TKM College of Engineering  
+- **Member 2:** Abhinav A – TKM College of Engineering
 
-💡 The Solution (that nobody asked for)
-We use AI to classify emotions from lyrics and assign a meme that reflects your deepest song-induced trauma, or power fantasy. Completely unnecessary. Absolutely glorious.
+---
 
-🛠 Technical Details
+## 🧠 Project Description
 
-For Software:
-Languages Used: Python, HTML
+Ever felt like your music taste deserves psychological evaluation?  
+Our app fetches lyrics of any song you enter and tells you which meme perfectly represents the emotional chaos within it.
 
-Frameworks Used: Flask
+---
 
-Libraries Used:
+## 🚨 The Problem (that doesn't exist)
 
--transformers – for emotion classification
+People don’t know how to *meme-ify* their feelings after listening to an emotional bop.  
+A tragic oversight in modern society.
 
--torch – model inference
+---
 
--lyricsgenius – to fetch lyrics
+## 💡 The Solution (that nobody asked for)
 
--re – for lyric cleanup
+We use AI to classify emotions from lyrics and assign a meme that reflects your deepest song-induced trauma or power fantasy.  
+Completely unnecessary. Absolutely glorious.
 
-Tools Used:
+---
 
-Hugging Face API
+## 🛠 Technical Details
 
-Genius API
+### For Software
 
-TailwindCSS (for frontend)
+- **Languages Used:**
+  - Python
+  - HTML
 
-🚫 For Hardware:
-No wires. No breadboards. Just broken hearts and lyric analysis.
+- **Frameworks Used:**
+  - Flask
 
-⚙️ Implementation
-For Software:
-Installation
--bash
--pip install flask torch transformers lyricsgenius
-Run
--python Analyser.py
-📸 Project Documentation
-Screenshots
-1. Landing Page
-![Screenshot1](Add screenshot 1 here)
-Enter the song name you want emotionally dissected.
+- **Libraries Used:**
+  - `transformers` – for emotion classification  
+  - `torch` – model inference  
+  - `lyricsgenius` – to fetch lyrics  
+  - `re` – for lyric cleanup
 
-2. Emotion Meme Result
-![Screenshot2](Add screenshot 2 here)
-Shows the meme that best matches the emotional vibes of the lyrics.
+- **Tools Used:**
+  - Hugging Face API  
+  - Genius API  
+  - TailwindCSS (for frontend)
 
-3. Error Handling
-![Screenshot3](Add screenshot 3 here)
-Displays appropriate message when lyrics aren't found or API fails.
+---
 
-Diagrams
-Workflow
-![Workflow](Add your workflow/architecture diagram here)
-Song Name → Lyrics Fetch → Emotion Analysis → Meme Mapping → Result
+### 🚫 For Hardware
 
-🤖 Project Demo
-Video
-[Add your demo video link here]
-The video walks through entering a song name, fetching lyrics, and revealing the perfect meme.
+No wires.  
+No breadboards.  
+Just broken hearts and lyric analysis.
 
-Additional Demos
-[Optional: Add fun screenshots of unexpected/funny meme results]
+---
 
-👥 Team Contributions
-Dany James:
+## ⚙️ Implementation
 
-Backend architecture
-
-Hugging Face integration
-
-Genius API integration
-
-Emotion classifier logic
-
-Abhinav A:
-
-Frontend (HTML + Tailwind)
-
-Meme mapping logic
-
-UI/UX polish and testing
+### Installation
+```bash
+pip install flask torch transformers lyricsgenius
 
 
+
+```bash
+pip install flask torch transformers lyricsgenius
