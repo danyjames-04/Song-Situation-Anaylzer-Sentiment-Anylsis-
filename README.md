@@ -74,9 +74,11 @@ python Analyser.py
 ## 📸 Project Documentation
 
 ### 📷 Screenshots
-<img width="1919" height="871" alt="Screenshot 2025-08-02 054147" src="https://github.com/user-attachments/assets/4e9319b7-b10d-4865-97d5-8ccb69724928" />
-<img width="1914" height="873" alt="Screenshot 2025-08-02 054031" src="https://github.com/user-attachments/assets/e3cacc8e-1903-42ae-8b8d-8a83a574dd0c" />
-<img width="1919" height="865" alt="Screenshot 2025-08-02 054005" src="https://github.com/user-attachments/assets/a5f489e7-2332-498f-b34f-b9a0f4743779" />
+![Initial]<img width="1919" height="865" alt="Screenshot 2025-08-02 054005" src="https://github.com/user-attachments/assets/a5f489e7-2332-498f-b34f-b9a0f4743779" />
+![Data Filling]<img width="1914" height="873" alt="Screenshot 2025-08-02 054031" src="https://github.com/user-attachments/assets/e3cacc8e-1903-42ae-8b8d-8a83a574dd0c" />
+![Result]<img width="1919" height="871" alt="Screenshot 2025-08-02 054147" src="https://github.com/user-attachments/assets/4e9319b7-b10d-4865-97d5-8ccb69724928" />
+
+
 
 
 
