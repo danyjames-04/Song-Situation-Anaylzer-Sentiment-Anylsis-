@@ -1,4 +1,4 @@
-# 🎯 Useless Sentiment Analyzer
+# 🎯 Song Situation Analyzer
 
 ## 🧾 Basic Details
 
