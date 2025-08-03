@@ -16,7 +16,7 @@ model = AutoModelForSequenceClassification.from_pretrained(model_name)
 id2label = model.config.id2label
 
 # LyricsGenius setup
-genius = lyricsgenius.Genius("generate genius api token and paster here", #pip install lyricgenius
+genius = lyricsgenius.Genius("generate genius api token and paste here", #pip install lyricgenius
                              skip_non_songs=True,
                              excluded_terms=["(Remix)", "(Live)"],
                              verbose=False)
@@ -71,3 +71,4 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
